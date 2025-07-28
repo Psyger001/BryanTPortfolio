@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <a href="#home">Bryan.IT<span style="color: #3a5bd9"></span></a>
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content" data-aos="zoom-in-left" data-aos-delay="400">
+          <h1>Hi, I'm <span class="highlight">Bryan Tampus</span></h1>
+          <h2>BSIT Student</h2>
+          <p>
+            I build responsive websites and web applications that deliver
+            exceptional user experiences.
+          </p>
+          <div class="cta-buttons">
+            <a href="#projects" class="btn primary-btn">View My Work</a>
+            <a href="#contact" class="btn secondary-btn">Contact Me</a>
+          </div>
+          <div class="social-icons">
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        <div class="hero-image" data-aos="zoom-in-right" data-aos-delay="600">
+          <img src="/img/HeroV2.png" alt="Profile Image" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div
+          class="section-header"
+          data-aos="zoom-in-down"
+          data-aos-delay="500"
+        >
+          <h2>About Me</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="about-content" data-aos="zoom-in-left" data-aos-delay="600">
+          <div class="about-image">
+            <img src="/img/about.png" alt="About Me Image" />
+          </div>
+          <div class="about-text">
+            <h3 data-aos="zoom-in-right" data-aos-delay="600">Who am I?</h3>
+            <p data-aos="zoom-in-right" data-aos-delay="600">
+              I'm a passionate frontend developer with a strong foundation in
+              HTML, CSS, and JavaScript. I love creating beautiful, functional,
+              and user-friendly websites.
+            </p>
+            <p data-aos="zoom-in-right" data-aos-delay="500">
+              With 3+ years of experience in web development, I've worked on
+              various projects ranging from small business websites to complex
+              web applications.
+            </p>
+            <div
+              class="about-details"
+              data-aos="zoom-in-right"
+              data-aos-delay="500"
+            >
+              <div class="detail">
+                <i class="fas fa-user"></i>
+                <div>
+                  <h4>Name</h4>
+                  <p>Bryan Tampus</p>
+                </div>
+              </div>
+              <div class="detail" data-aos="zoom-in-right" data-aos-delay="500">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h4>Email</h4>
+                  <p>bryantampus1996@gmail.com</p>
+                </div>
+              </div>
+              <div class="detail" data-aos="zoom-in-right" data-aos-delay="500">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <h4>Location</h4>
+                  <p>Cordova, Cebu</p>
+                </div>
+              </div>
+              <div class="detail" data-aos="zoom-in-right" data-aos-delay="500">
+                <i class="fas fa-graduation-cap"></i>
+                <div>
+                  <h4>Education</h4>
+                  <p>Bachelor of Science in Information Technology</p>
+                </div>
+              </div>
+            </div>
+            <a
+              href="#"
+              class="btn primary-btn"
+              data-aos="zoom-in-right"
+              data-aos-delay="500"
+              >Download CV</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <div
+          class="section-header"
+          data-aos="zoom-in-down"
+          data-aos-delay="500"
+        >
+          <h2>My Skills</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="skills-content">
+          <div class="skill-category">
+            <h3>Frontend Development</h3>
+            <div class="skills-grid">
+              <div
+                class="skill-item"
+                data-aos="fade-up-left"
+                data-aos-delay="100"
+              >
+                <div class="skill-icon">
+                  <i class="fab fa-html5"></i>
+                </div>
+                <h4>HTML5</h4>
+                <div class="skill-progress">
+                  <div class="progress-bar" style="width: 95%"></div>
+                </div>
+                <span class="skill-percentage">95%</span>
+              </div>
+              <div
+                class="skill-item"
+                data-aos="fade-up-left"
+                data-aos-delay="200"
+              >
+                <div class="skill-icon">
+                  <i class="fab fa-css3-alt"></i>
+                </div>
+                <h4>CSS3</h4>
+                <div class="skill-progress">
+                  <div class="progress-bar" style="width: 90%"></div>
+                </div>
+                <span class="skill-percentage">90%</span>
+              </div>
+              <div
+                class="skill-item"
+                data-aos="fade-up-left"
+                data-aos-delay="300"
+              >
+                <div class="skill-icon">
+                  <i class="fab fa-js"></i>
+                </div>
+                <h4>JavaScript</h4>
+                <div class="skill-progress">
+                  <div class="progress-bar" style="width: 85%"></div>
+                </div>
+                <span class="skill-percentage">85%</span>
+              </div>
+              <div
+                class="skill-item"
+                data-aos="fade-up-left"
+                data-aos-delay="400"
+              >
+                <div class="skill-icon">
+                  <i class="fab fa-react"></i>
+                </div>
+                <h4>React</h4>
+                <div class="skill-progress">
+                  <div class="progress-bar" style="width: 80%"></div>
+                </div>
+                <span class="skill-percentage">80%</span>
+              </div>
+            </div>
+          </div>
+          <div class="skill-category">
+            <h3>Other Skills</h3>
+            <div class="skills-grid">
+              <div
+                class="skill-item"
+                data-aos="fade-up-left"
+                data-aos-delay="100"
+              >
+                <div class="skill-icon">
+                  <i class="fab fa-git-alt"></i>
+                </div>
+                <h4>Git</h4>
+                <div class="skill-progress">
+                  <div class="progress-bar" style="width: 85%"></div>
+                </div>
+                <span class="skill-percentage">85%</span>
+              </div>
+              <div
+                class="skill-item"
+                data-aos="fade-up-left"
+                data-aos-delay="200"
+              >
+                <div class="skill-icon">
+                  <i class="fas fa-mobile-alt"></i>
+                </div>
+                <h4>Responsive Design</h4>
+                <div class="skill-progress">
+                  <div class="progress-bar" style="width: 90%"></div>
+                </div>
+                <span class="skill-percentage">90%</span>
+              </div>
+              <div
+                class="skill-item"
+                data-aos="fade-up-left"
+                data-aos-delay="300"
+              >
+                <div class="skill-icon">
+                  <i class="fas fa-universal-access"></i>
+                </div>
+                <h4>Web Accessibility</h4>
+                <div class="skill-progress">
+                  <div class="progress-bar" style="width: 75%"></div>
+                </div>
+                <span class="skill-percentage">75%</span>
+              </div>
+              <div
+                class="skill-item"
+                data-aos="fade-up-left"
+                data-aos-delay="400"
+              >
+                <div class="skill-icon">
+                  <i class="fas fa-server"></i>
+                </div>
+                <h4>API Integration</h4>
+                <div class="skill-progress">
+                  <div class="progress-bar" style="width: 80%"></div>
+                </div>
+                <span class="skill-percentage">80%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <div
+          class="section-header"
+          data-aos="zoom-in-down"
+          data-aos-delay="500"
+        >
+          <h2>My Projects</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web Development</button>
+          <button class="filter-btn" data-filter="app">App Design</button>
+          <button class="filter-btn" data-filter="other">Other</button>
+        </div>
+        <div class="projects-grid">
+          <div
+            class="project-item"
+            data-category="web"
+            data-aos="flip-left"
+            data-aos-delay="100"
+          >
+            <div class="project-img">
+              <img src="img/eccomerce.jpg" alt="Project 1" />
+            </div>
+            <div class="project-info">
+              <h3>E-commerce Website</h3>
+              <p>
+                A fully responsive e-commerce website with product filtering,
+                cart functionality, and payment integration.
+              </p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank" class="btn small-btn">Live Demo</a>
+                <a href="#" target="_blank" class="btn small-btn secondary-btn"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="project-item"
+            data-category="app"
+            data-aos="flip-left"
+            data-aos-delay="200"
+          >
+            <div class="project-img">
+              <img src="/img/task manager.png" alt="Project 2" />
+            </div>
+            <div class="project-info">
+              <h3>Task Manager App</h3>
+              <p>
+                A task management application with drag-and-drop functionality,
+                task categories, and local storage.
+              </p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank" class="btn small-btn">Live Demo</a>
+                <a href="#" target="_blank" class="btn small-btn secondary-btn"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="project-item"
+            data-category="other"
+            data-aos="flip-left"
+            data-aos-delay="300"
+          >
+            <div class="project-img">
+              <img src="/img/weather.jpg" alt="Project 3" />
+            </div>
+            <div class="project-info">
+              <h3>Weather Dashboard</h3>
+              <p>
+                A weather application that displays current and forecasted
+                weather data using a third-party API.
+              </p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>API</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank" class="btn small-btn">Live Demo</a>
+                <a href="#" target="_blank" class="btn small-btn secondary-btn"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="project-item"
+            data-category="app"
+            data-aos="flip-left"
+            data-aos-delay="400"
+          >
+            <div class="project-img">
+              <img src="/img/food.jpg" alt="Project 4" />
+            </div>
+            <div class="project-info">
+              <h3>Recipe Finder</h3>
+              <p>
+                An application that allows users to search for recipes based on
+                ingredients they have on hand.
+              </p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>API</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank" class="btn small-btn">Live Demo</a>
+                <a href="#" target="_blank" class="btn small-btn secondary-btn"
+                  >GitHub</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div
+          class="section-header"
+          data-aos="zoom-in-down"
+          data-aos-delay="500"
+        >
+          <h2>Contact Me</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3 data-aos="fade-up" data-aos-delay="100">Get In Touch</h3>
+            <p data-aos="fade-up" data-aos-delay="200">
+              Feel free to reach out to me for any questions or opportunities.
+              I'm always open to discussing new projects, creative ideas, or
+              opportunities to be part of your vision.
+            </p>
+            <div class="contact-details">
+              <div class="contact-item" data-aos="fade-up" data-aos-delay="300">
+                <i class="fas fa-envelope"></i>
+                <div>
+                  <h4>Email</h4>
+                  <p>bryantampus1996@gmail.com</p>
+                </div>
+              </div>
+              <div class="contact-item" data-aos="fade-up" data-aos-delay="400">
+                <i class="fas fa-phone"></i>
+                <div>
+                  <h4>Phone</h4>
+                  <p>+99 1234-1234-12</p>
+                </div>
+              </div>
+              <div class="contact-item" data-aos="fade-up" data-aos-delay="500">
+                <i class="fas fa-map-marker-alt"></i>
+                <div>
+                  <h4>Location</h4>
+                  <p>Cebu, Cordova</p>
+                </div>
+              </div>
+            </div>
+            <div class="social-icons">
+              <a
+                href="#"
+                target="_blank"
+                data-aos="fade-up"
+                data-aos-delay="600"
+                ><i class="fab fa-github"></i
+              ></a>
+              <a
+                href="#"
+                target="_blank"
+                data-aos="fade-up"
+                data-aos-delay="700"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a
+                href="#"
+                target="_blank"
+                data-aos="fade-up"
+                data-aos-delay="800"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                href="#"
+                target="_blank"
+                data-aos="fade-up"
+                data-aos-delay="900"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="contact-form">
+            <h3>Send Me a Message</h3>
+            <form id="contactForm" data-aos="fade-down" data-aos-delay="100">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Your Name"
+                  required
+                />
+                <span class="error-message"></span>
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Your Email"
+                  required
+                />
+                <span class="error-message"></span>
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="Subject"
+                  required
+                />
+                <span class="error-message"></span>
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+                <span class="error-message"></span>
+              </div>
+              <button type="submit" class="btn primary-btn">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 BryanT. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top">
+      <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
